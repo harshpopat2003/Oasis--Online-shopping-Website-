@@ -1,0 +1,111 @@
+.App{
+    /* height:100vh; */
+    padding:0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253, 184, 88);
+}
+
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #474747;
+    fontSize: 10px;
+    font-weight: 100;
+    font-family: 'Roboto Serif', serif;
+    /* background-color: rgb(40, 134, 216); */
+    height: 100px;
+    width: 180px;
+    border: solid 4px;
+    border-radius: 20px;
+    margin: 20;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+}
+
+button{
+    font-weight: 100;
+    font-family: 'Roboto Serif', serif;
+    cursor: pointer;
+    height: 70px;
+    width: 400px;
+    border: solid 4px;
+    border-radius: 20px;
+    margin: 20;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    background-color: transparent;
+    color: #474747;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Roboto Serif', serif;
+    border: solid 4px;
+    border-radius: 10px;
+    width: 1000;
+    height:500;
+    padding-left: 20px;
+    background-color: rgba(114, 118, 119, 0.2);
+    color: #474747;
+}
+
+.form{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+input{
+    height: 70px;
+    width: 400px;
+    border: solid 4px;
+    border-radius: 20px;
+    margin: 20;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    background-color:white;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.containerUsers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 100px;
+}
+
+.users{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 20px;
+}
